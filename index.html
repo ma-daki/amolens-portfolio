@@ -7,15 +7,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Amolens-portfolio</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
     <!-- the first section -->
-    <div class="section-1" style="
+    <div class="" style="
         background-color: #000; 
         position: relative; 
         min-height: 100vh;
         overflow: hidden;">
-        <div class="content text-light p-4 justify-content-lg-end justify-content-end" style="
+        <div class="section-01 content text-light p-lg-4 p-2 justify-content-lg-end justify-content-end" style="
             position: absolute;
             top: 10%; 
             right: 7%;
@@ -38,10 +39,10 @@
     </div>
 
     <!-- the second section -->
-    <div class="section-2">
+    <div class="section">
         <div class="container" style="">
             <div class="row py-4 g-5 align-items-center text-lg-start text-center">
-                <div class="col-12 col-md-4 order-1" style="margin-top: 20%;">
+                <div class="section-2 col-12 col-md-4 order-1" style="margin-top: 20%;">
                     <h1 class="display-5 fw-bold text-dark">Director’s Reel</h1>
                     <p class="text-dark py-3 " style="text-align: justify;">
                         I'm not sure when exactly it started, but I woke up one 
@@ -56,18 +57,18 @@
                         Wanna talk? I have a comfy couch waiting for you in my email, hehe!
                     </p>
                 </div>
-                <div class="section-1 col-12 col-md-8 order-2">
-                <img src="imgs/download.jpeg " alt="" class="img-fluid">
+                <div class="section-02 col-12 col-md-8 order-2">
+                  <img src="imgs/download.jpeg " alt="" class="img-fluid">
                 </div>
             </div>
         </div>
     </div>
 
     <!-- the third section -->
-    <div class="section-2">
+    <div class="section">
         <div class="container">
             <div class="row py-4 g-5 align-items-start text-lg-start text-center"> 
-                <div class="col-12 col-md-6 order-1 order-md-2 d-flex flex-column"> 
+                <div class="section-2 col-12 col-md-6 order-1 order-md-2 d-flex flex-column"> 
                     <p class="display-5 fw-bold text-dark mb-3" style="font-size: 20px;">Bio</p> 
                     <p class="text-dark" style="text-align: justify;"> 
                         I'm not sure when exactly it started, but I woke up one 
@@ -83,7 +84,7 @@
                     </p>
                 </div>
 
-                <div class="col-12 col-md-6 order-1 order-md-1">
+                <div class="section-02 col-12 col-md-6 order-1 order-md-1">
                     <img src="imgs/download1.jpeg" alt="" class="img-fluid w-100"> 
                 </div>
             </div>
@@ -93,66 +94,71 @@
     <!-- the fourth section -->
     <div class="container py-5">
         <!-- Responsive Heading -->
-        <h1 class="text-lg-start text-center mb-5" style="font-size: clamp(3rem, 10vw, 10em); font-weight: 800;">BODY <br>OF <br>WORK</h1>
+        <h1 class="sec-01 text-lg-start text-center mb-5" style="font-size: clamp(3rem, 10vw, 10em); font-weight: 800;">BODY <br>OF <br>WORK</h1>
         
         <!-- Card Grid (2 rows) -->
         <div class="row g-4 justify-content-center">
           <!-- Row 1 -->
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card h-100">
-              <img src="imgs/download.jpeg" class="card-img-top img-fluid" alt="Project">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+           <div class="row-one d-flex flex-lg-row flex-column gap-3">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card h-100">
+                <img src="imgs/download.jpeg" class="card-img-top img-fluid" alt="Project">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card h-100">
-              <img src="imgs/download.jpeg" class="card-img-top img-fluid" alt="Project">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card h-100">
+                <img src="imgs/download.jpeg" class="card-img-top img-fluid" alt="Project">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card h-100">
-              <img src="imgs/download.jpeg" class="card-img-top img-fluid" alt="Project">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card h-100">
+                <img src="imgs/download.jpeg" class="card-img-top img-fluid" alt="Project">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
               </div>
             </div>
-          </div>
-      
+           </div>
+
           <!-- Row 2 -->
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card h-100">
-              <img src="imgs/download.jpeg" class="card-img-top img-fluid" alt="Project">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <div class="row-one d-flex flex-lg-row flex-column gap-3">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card h-100">
+                <img src="imgs/download.jpeg" class="card-img-top img-fluid" alt="Project">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card h-100">
-              <img src="imgs/download.jpeg" class="card-img-top img-fluid" alt="Project">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card h-100">
+                <img src="imgs/download.jpeg" class="card-img-top img-fluid" alt="Project">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card h-100">
-              <img src="imgs/download.jpeg" class="card-img-top img-fluid" alt="Project">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card h-100">
+                <img src="imgs/download.jpeg" class="card-img-top img-fluid" alt="Project">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
               </div>
             </div>
-          </div>
+           </div>
+          
         </div>
       </div>
 
      <!-- footer -->
-     <footer style="background: #000; color: #fff; padding: 3rem 0;">
+     <footer class="footer" style="background: #000; color: #fff; padding: 3rem 0;">
         <div class="container">
           <div class="row align-items-center">
             <!-- Left Column: "Thank You" -->
@@ -167,21 +173,51 @@
                 <div class="text-center text-lg-start mb-3">
                   <h3 style="font-size: 1.5rem;">Contact</h3>
                   <p class="mb-1">Amo John Lasisi</p>
-                  <p class="mb-3">amolasisi@gmail.com</p>
-                </div>
-      
-                <!-- Social Icons -->
-                <div class="d-flex gap-3">
-                  <a href="#" class="text-light" style="font-size: 1.5rem;"><i class="fa-brands fa-linkedin"></i></a>
-                  <a href="#" class="text-light" style="font-size: 1.5rem;"><i class="fa-brands fa-twitter"></i></a>
-                  <a href="#" class="text-light" style="font-size: 1.5rem;"><i class="fa-brands fa-instagram"></i></a>
-                  <a href="#" class="text-light" style="font-size: 1.5rem;"><i class="fa-brands fa-google"></i></a>
-                </div>
+                  <a href="" class="text-decoration-none text-light">amolasisi@gmail.com</a>
+                </div>             
+              </div>
+            </div>
+
+            <!-- Social Icons -->
+            <div class="social-icons-container">
+              <div class="icons">
+                <a href="#" class="socialContainer containerOne">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                
+                <a href="#" class="socialContainer containerTwo">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                  
+                <a href="#" class="socialContainer containerThree">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                
+                <a href="#" class="socialContainer containerFour">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
               </div>
             </div>
           </div>
         </div>
-      </footer>
+    </footer>
+
+       <!-- scroll reveal -->
+    <script>
+        ScrollReveal({ 
+           // reset: true//
+            distance: '60px',
+            duration: 2500,
+            delay: 400
+        });
+
+        ScrollReveal().reveal('.section-01',{ delay: 500, origin: 'right' });
+        ScrollReveal().reveal('.section-02',{ delay: 600, origin: 'right' });
+        ScrollReveal().reveal('.section-2',{ delay: 500, origin: 'left' });
+        ScrollReveal().reveal('.sec-01, .footer',{ delay: 600, origin: 'bottom' });
+        ScrollReveal().reveal('.row-one, .social-icons-container',{ delay: 600, origin: 'bottom', interval: 400 });
+
+    </script>
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
