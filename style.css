@@ -4,6 +4,10 @@ html, body {
   margin: 0;
   padding: 0;
 }
+p{
+  font-family: 'Caveat', sans-serif;
+  font-size: 1.2rem;
+}
 
 /* Hero Section */
 .hero-section {
@@ -22,7 +26,16 @@ html, body {
   max-width: 600px;
   padding: 2rem;
 }
-
+.section-02::before{
+  content: "";
+  position: absolute;
+  top: 25px;
+  left: 0;
+  width: 90%;
+  height: 100%;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
 /* Content Sections */
 .content-section {
   padding: 4rem 0;
@@ -68,6 +81,7 @@ html, body {
 
 .social-icon:hover {
   transform: scale(1.1);
+  rotate: 45deg;
 }
 
 .social-icon.instagram:hover {

@@ -5,33 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Amolens-portfolio</title>
     <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
     <!-- the first section -->
-    <section class="home-bg section h-100vh" id="home" style="margin: 0; padding: 0;">
+    <section class="home-bg section" id="home" style="margin: 0; padding: 0;">
         <video class="bg-vid" autoplay loop muted style="
             object-fit: cover;
             background-repeat: no-repeat;
             width: 100%;
-            height: 100%;
-            position: absolute;
             top: 0;
             left: 0;
-            z-index: -1;
             filter: grayscale(100%);
         ">
             <source src="imgs/A jazz man's mono (final cut).mp4" type="video/mp4">
         </video>
 
-        <div class="z-index">
-            <div class="section-one" style="
-                background: transparent; 
-                position: relative; 
-                min-height: 100vh;
-                overflow-y: hidden;">
+        <div class="section-one">
+            <div class="" style="
+                background: transparent;">
                 <div class="section-01 content text-light p-lg-4 p-2 justify-content-lg-end justify-content-end" style="
                     position: absolute;
                     top: 10%; 
@@ -41,14 +38,14 @@
                     max-width: 600px;
                 ">
                     <div class="text" style="margin-bottom: 20vh;">
-                        <p style="font-size: clamp(1rem, 2vw, 1.5rem);">Commercial + Documentary</p>
+                        <p style="font-size: clamp(1rem, 2vw, 1.5rem); font-family: 'Caveat', sans-serif;">Commercial + Documentary</p>
                         <h3 style="font-size: clamp(2rem, 5vw, 3em);">
                             <span class="my-5 fw-bold" style="font-size: clamp(3rem, 10vw, 7rem);">AMOLENS</span> 
                             <br>Director 
                         </h3>
                     </div>
                     <div class="port" style="margin-bottom: 5vh;"> 
-                        <h3 style="font-size: clamp(1rem, 2vw, 1.5rem);">Portfolio</h3>
+                        <h3 style="font-size: clamp(1rem, 2vw, 1.5rem); font-family: 'Caveat', sans-serif;">Portfolio</h3>
                         <i class="arrow-down"></i>
                     </div>
                 </div>
@@ -62,7 +59,7 @@
         <div class="row py-4 g-5 align-items-center text-lg-start text-center">
           <div class="section-2 col-12 col-md-4 order-1" style="margin-top: 20%;">
             <h1 class="display-5 fw-bold text-dark">Director’s Reel</h1>
-            <p class="text-dark py-3" style="text-align: justify;">
+            <p class="text-dark py-3" style="text-align: justify; ">
               Amo Lasisi, known as Amolens, is a creative director and indie filmmaker based in Jos, Nigeria. 
               His storytelling blends Afrocentric and retro aesthetics, capturing culture, nostalgia, and emotion. 
               Amolens has worked with artists like SON Music, Moxie Yaro, and Neken Chuwang, creating visually rich content. 
@@ -76,13 +73,13 @@
           </div>
 
           <div class="section-02 col-12 col-md-8 order-2 d-flex justify-content-center">
-            <video src="imgs/Showreel.mp4" style="
-              width: 700px;
-              height: 350px;
-              object-fit: cover;
-              border-radius: 10px;"
-              controls
-            ></video>
+            <iframe 
+              src="https://drive.google.com/file/d/1fMK8Uc4abxtULuB7kUXgGSnh2aLxBiSt/preview" 
+              width="700" 
+              height="350" 
+              style="border-radius: 10px; border: none;" 
+              allow="autoplay">
+            </iframe>
           </div>
         </div>
       </div>
@@ -94,7 +91,7 @@
         <div class="container">
             <div class="row py-4 g-5 align-items-start text-lg-start text-center"> 
                 <div class="section-2 col-12 col-md-6 order-1 order-md-2 d-flex flex-column"> 
-                    <p class="display-5 fw-bold text-dark mb-3" style="font-size: 20px;">Bio</p> 
+                    <h1 class="display-5 fw-bold text-dark mb-3" style="font-size: 20px;">Bio</h1> 
                     <p class="text-dark py-3" style="text-align: justify;">
                       Amo Lasisi, known as Amolens, is a creative director and indie filmmaker based in Jos, Nigeria. 
                       His storytelling blends Afrocentric and retro aesthetics, capturing culture, nostalgia, and emotion. 
@@ -111,7 +108,7 @@
                 </div>
 
                 <div class="section-02 col-12 col-md-6 order-1 order-md-1">
-                    <img src="imgs/1000044386.jpg" alt="" class="img-fluid w-100"> 
+                    <img src="imgs/1000044386.jpg" alt="" class="img-fluid w-100 rounded"> 
                 </div>
             </div>
         </div>
@@ -128,7 +125,11 @@
            <div class="row-one d-flex flex-lg-row flex-column gap-3">
             <div class="col-12 col-md-6 col-lg-4">
               <div class="card h-100">
-                <img src="imgs/download.jpeg" class="card-img-top img-fluid" alt="Project">
+                <iframe 
+                  src="https://drive.google.com/file/d/15knBNyEmSzT9N2fHtFAiQddcAcSNCcvA/preview"  
+                  style="border-radius: 10px; border: none;">
+                </iframe>
+
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
@@ -136,7 +137,10 @@
             </div>
             <div class="col-12 col-md-6 col-lg-4">
               <div class="card h-100">
-                <img src="imgs/download.jpeg" class="card-img-top img-fluid" alt="Project">
+                <iframe 
+                  src="https://drive.google.com/file/d/1fMK8Uc4abxtULuB7kUXgGSnh2aLxBiSt/preview" 
+                  style="border-radius: 10px; border: none; background-size: contain;">
+                </iframe>
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
@@ -144,7 +148,10 @@
             </div>
             <div class="col-12 col-md-6 col-lg-4">
               <div class="card h-100">
-                <img src="imgs/download.jpeg" class="card-img-top img-fluid" alt="Project">
+                <iframe 
+                  src="https://drive.google.com/file/d/1FVR3_WI2bxe4qdpJdRLx6zNfMkcNYcCe/preview"
+                  style="border-radius: 10px; border: none; background-size: contain;">
+                </iframe>
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
@@ -156,7 +163,10 @@
           <div class="row-one d-flex flex-lg-row flex-column gap-3">
             <div class="col-12 col-md-6 col-lg-4">
               <div class="card h-100">
-                <img src="imgs/download.jpeg" class="card-img-top img-fluid" alt="Project">
+                <iframe 
+                  src="https://drive.google.com/file/d/1laJvqknmoTmtPo2cQ4RRxEJZcStn97L4/preview" 
+                  style="border-radius: 10px; border: none; background-size: contain;">
+                </iframe>
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
@@ -164,7 +174,10 @@
             </div>
             <div class="col-12 col-md-6 col-lg-4">
               <div class="card h-100">
-                <img src="imgs/download.jpeg" class="card-img-top img-fluid" alt="Project">
+                <iframe 
+                  src="https://drive.google.com/file/d/1WMVEDM9bR_sjCHMZN8UTkKTHmmC8gc2n/preview" 
+                  style="border-radius: 10px; border: none; background-size: contain;">
+                </iframe>
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
@@ -172,7 +185,10 @@
             </div>
             <div class="col-12 col-md-6 col-lg-4">
               <div class="card h-100">
-                <img src="imgs/download.jpeg" class="card-img-top img-fluid" alt="Project">
+                <iframe 
+                  src="https://drive.google.com/file/d/1u-f27znFpP2z0lr9eaiyy1cGS09WOQ8D/preview" 
+                  style="border-radius: 10px; border: none; background-size: contain;">
+                </iframe>
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
@@ -243,7 +259,7 @@
             aria-label="Visit my portfolio"
             class="social-link">
             <i class="fab fa-github"></i>
-          </a>SheffDev
+          </a>CodeWithMadaki
         </p>
       </div>
   </footer>
@@ -258,11 +274,11 @@
             delay: 300
         });
 
-        ScrollReveal().reveal('.section-01',{ delay: 300, origin: 'right' });
-        ScrollReveal().reveal('.section-02',{ delay: 300, origin: 'right' });
-        ScrollReveal().reveal('.section-2',{ delay: 300, origin: 'left' });
-        ScrollReveal().reveal('.sec-01, .footer',{ delay: 300, origin: 'bottom' });
-        ScrollReveal().reveal('.row-one, .social-icons-container',{ delay: 300, origin: 'bottom', interval: 200 });
+        ScrollReveal().reveal('.section-01',{ delay: 200, origin: 'right' });
+        ScrollReveal().reveal('.section-02',{ delay: 200, origin: 'right' });
+        ScrollReveal().reveal('.section-2',{ delay: 200, origin: 'left' });
+        ScrollReveal().reveal('.sec-01, .footer',{ delay: 200, origin: 'bottom' });
+        ScrollReveal().reveal('.row-one, .social-icons-container',{ delay: 200, origin: 'bottom', interval: 100 });
 
     </script>
     <!-- get date -->
