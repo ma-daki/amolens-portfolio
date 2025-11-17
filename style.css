@@ -99,6 +99,34 @@ html, body {
   }
 }
 
+/* Center the button */
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0; /* adjust spacing */
+}
+
+/* Button styling */
+.instagram-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+  border: 2px solid #000; /* black border */
+  border-radius: 1rem; /* rounded edges */
+  text-decoration: none;
+  color: #000; /* text color */
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.instagram-button:hover {
+  background-color: rgba(0,0,0,0.1); /* subtle dark shade */
+  border-color: #333;
+  color: #000;
+}
 
 
 /* Footer */
